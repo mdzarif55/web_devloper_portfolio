@@ -6,6 +6,7 @@ body {
 }
 
 .primary-btn {
+    /* for having a curve in reactangle */
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -31,23 +32,30 @@ body {
 }
 
 nav {
+    /* for same line */
     display: flex;
+    /* having space between  and go  */
     justify-content: space-between;
     align-items: center;
 }
 
 nav>ul {
+    /* all ui in same line */
     display: flex;
+    /* alling item in center */
     align-items: center;
 
 }
 
 nav li {
-    list-style: none;
+    /* for no listing */
+    list-style: none;  
     margin-right: 50px;
+    /* for spacecing between li */
 }
 
 nav a {
+    /* no underline */
     text-decoration: none;
     color: #474747;
 }
