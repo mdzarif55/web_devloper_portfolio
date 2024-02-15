@@ -37,6 +37,7 @@ nav {
     /* having space between  and go  */
     justify-content: space-between;
     align-items: center;
+    margin: 0 200PX;
 }
 
 nav>ul {
@@ -58,4 +59,17 @@ nav a {
     /* no underline */
     text-decoration: none;
     color: #474747;
+}
+/*Header design*/
+.header{
+    background-color: #FFF8F3;
+}
+.banner
+{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+         width: 500px;
 }
