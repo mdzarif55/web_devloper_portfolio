@@ -1,75 +1,161 @@
-body {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+ /* common shared styles */
+ body {
+     font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
 
-}
+ }
 
-.primary-btn {
-    /* for having a curve in reactangle */
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    color: #FFF;
+ .primary-btn {
+     /* for having a curve in reactangle */
+     border-radius: 5px;
+     background: #FD6E0A;
+     border: 0;
+     color: #FFF;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     padding: 15px 35px;
+
+ }
+
+ .primary-color {
+     color: #FD6E0A;
+ }
+
+ .section-title {
+     color: #181818;
+     text-align: center;
+     font-size: 35px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+ }
+
+ .section-description {
+     color: #757575;
+     text-align: center;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     /* 166.667% */
+ }
+
+ /* common shared styles ends */
+ .nav-title {
+     color: var(--Dark-01, #181818);
+
+     font-size: 45px;
+     font-style: normal;
+     font-weight: 800;
+     line-height: normal;
+ }
+
+ nav {
+     /* for same line */
+     display: flex;
+     /* having space between  and go  */
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 200PX;
+ }
+
+ nav>ul {
+     /* all ui in same line */
+     display: flex;
+     /* alling item in center */
+     align-items: center;
+
+ }
+
+ nav li {
+     /* for no listing */
+     list-style: none;
+     margin-right: 50px;
+     /* for spacecing between li */
+ }
+
+ nav a {
+     /* no underline */
+     text-decoration: none;
+     color: #474747;
+ }
+
+ /*Header design*/
+ .header {
+     background-color: #FFF8F3;
+     background-image: url(../images/header_bg.png);
+     background-repeat: no-repeat;
+     background-position: bottom right;
+ }
+
+ .banner {
+     padding: 30px 30px 0px 150px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .banner-content {
+     max-width: 500px;
+ }
+
+ .profile-pic {
+     width: 500px;
+ }
+
+ .hi {
+     font-size: 45px;
+     color: #474747;
+     margin-bottom: 0;
+ }
+
+ .mary-hardy {
+     font-size: 85px;
+     font-weight: 700;
+     margin-top: 5px;
+     margin-bottom: 20px;
+ }
+
+ /* main design starts */
+ .about {
+     padding: 130px;
+     border-radius: 10px;
+     background-color: #FFF8F3;
+     margin-top: 130px 0;
+     /* margin-bottom: 20px; */
+ }
+
+ main {
+     max-width: 1140px;
+     margin: auto;
+ }
+
+ .about-info-container {
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .about-info {
+     text-align: center;
+ }
+
+ .info-title {
+     color:#757575;
+     text-align: center;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 30px;
+     /* 150% */
+ }
+
+ .info-description {
+     color:  #474747;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    padding: 15px 35px;
-    
-}
-
-.primary-color {
-    color: #FD6E0A;
-}
-
-.nav-title {
-    color: var(--Dark-01, #181818);
-
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-nav {
-    /* for same line */
-    display: flex;
-    /* having space between  and go  */
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200PX;
-}
-
-nav>ul {
-    /* all ui in same line */
-    display: flex;
-    /* alling item in center */
-    align-items: center;
-
-}
-
-nav li {
-    /* for no listing */
-    list-style: none;  
-    margin-right: 50px;
-    /* for spacecing between li */
-}
-
-nav a {
-    /* no underline */
-    text-decoration: none;
-    color: #474747;
-}
-/*Header design*/
-.header{
-    background-color: #FFF8F3;
-}
-.banner
-{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
-}
-.profile-pic{
-         width: 500px;
-}
+     font-style: normal;
+     font-weight: 700;
+     line-height: 30px;
+ }
