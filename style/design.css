@@ -197,7 +197,7 @@
      line-height: 28px;
      /* 175% */
  }
- 
+
  /* resume section */
 
  .resume-coloum-title {
@@ -205,28 +205,62 @@
      font-size: 30px;
      font-weight: 700;
  }
- .resume-container{
-    display: flex;
-    gap: 50px;
+
+ .resume-container {
+     display: flex;
+     gap: 50px;
  }
- .resume-item-institute,.resume-item-description{
+
+ .resume-item-institute,
+ .resume-item-description {
+     color: #757575;
+ }
+
+ .resume-item-institute {
+     margin-top: 20px;
+     margin-bottom: 0;
+ }
+
+ .resume-title {
+     font-size: 25px;
+     color: #474747;
+     font-weight: 700;
+     margin-bottom: 10px;
+ }
+
+ .resume-container {
+     margin: 30px;
+ }
+
+ .download-cv {
+     text-align: center;
+     margin-top: 50px;
+ }
+
+ footer {
+     display: flex;
+     gap: 10px;
+     background: #FFF8F3;
+     margin-top: 130px;
+     padding: 130px 200px;
+
+ }
+
+ .footer-coloum {
+     width: 50%;
+ }
+ .form input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    font-size:16px ;
     color: #757575;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
  }
- .resume-item-institute{
-    margin-top: 20px;
-    margin-bottom: 0;
+ .social-icon a{
+    margin-right: 25px;
+    font-size: 50px;
  }
- .resume-title{
-    font-size: 25px;
-    color: #474747;
-    font-weight: 700;
-    margin-bottom: 10px;
- }
- .resume-container
- {
-    margin: 30px;
- }
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
-}
